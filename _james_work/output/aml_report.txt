@@ -1,0 +1,15 @@
+AML Screening Report (deterministic, explainable)
+====================================================
+Transactions screened: 5
+Rule hits: 4
+
+Rule hits detail:
+  - rule=sanctions_ir txs=['tx_101'] conclusion=flag_for_compliance_review
+  - rule=sanctions_ir txs=['tx_105'] conclusion=flag_for_compliance_review
+  - rule=sanctions_kp txs=['tx_103'] conclusion=flag_for_compliance_review
+  - rule=large_amount txs=['tx_103'] conclusion=flag_large_amount_review
+
+Funds-flow reasoning (Datalog, recursive):
+  reachable(mule_1, X) => shell_co, mule_2, offshore_acct
+
+Every flag above is traceable to: exact rule + exact facts + deterministic conclusion.

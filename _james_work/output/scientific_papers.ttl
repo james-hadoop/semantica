@@ -1,0 +1,571 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix semantica: <https://semantica.dev/ns#> .
+
+<https://semantica.dev/ns#inst_tsinghua_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Tsinghua University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_alice_zhang> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Alice Zhang" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_peking_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Peking University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_bob_liu> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Bob Liu" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_mit> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "MIT" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_carol_wang> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Carol Wang" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_stanford_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Stanford University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_david_chen> a <https://semantica.dev/ns#Author> ;
+    semantica:text "David Chen" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_harvard_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Harvard University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_elena_johnson> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Elena Johnson" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_fernando_garcia> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Fernando Garcia" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_johns_hopkins_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Johns Hopkins University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_gita_patel> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Gita Patel" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_seoul_national_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Seoul National University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_hyun_kim> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Hyun Kim" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_kaist> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "KAIST" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_inho_park> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Inho Park" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_university_of_tokyo> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "University of Tokyo" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_jun_tanaka> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Jun Tanaka" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_eth_zurich> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "ETH Zurich" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_klaus_m%C3%BCller> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Klaus Müller" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_politecnico_di_milano> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Politecnico di Milano" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_luca_rossi> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Luca Rossi" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_sapienza_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Sapienza University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_maria_bianchi> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Maria Bianchi" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_sorbonne_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Sorbonne University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_nicole_dupont> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Nicole Dupont" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_ibm_research> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "IBM Research" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_oliver_smith> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Oliver Smith" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "中国农业大学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_%E7%8E%8B%E4%BC%9F> a <https://semantica.dev/ns#Author> ;
+    semantica:text "王伟" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_%E5%8D%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "南京农业大学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_%E6%9D%8E%E5%A8%9C> a <https://semantica.dev/ns#Author> ;
+    semantica:text "李娜" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "武汉大学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_%E5%BC%A0%E5%BC%BA> a <https://semantica.dev/ns#Author> ;
+    semantica:text "张强" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "中国科学院物理研究所" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_%E5%88%98%E6%B4%8B> a <https://semantica.dev/ns#Author> ;
+    semantica:text "刘洋" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_charles_university> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Charles University" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_petr_novak> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Petr Novak" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_university_of_oxford> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "University of Oxford" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_qasim_ahmad> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Qasim Ahmad" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#inst_imperial_college_london> a <https://semantica.dev/ns#Institution> ;
+    semantica:text "Imperial College London" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_rita_silva> a <https://semantica.dev/ns#Author> ;
+    semantica:text "Rita Silva" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Graph Neural Networks for Molecular Property Prediction" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_nature_machine_intelligence> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "Nature Machine Intelligence" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_computer_science> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "Computer Science" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_chemistry> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "Chemistry" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#year_2023> a <https://semantica.dev/ns#Year> ;
+    semantica:text "2023" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#lang_english> a <https://semantica.dev/ns#Language> ;
+    semantica:text "English" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#src_scopus> a <https://semantica.dev/ns#Source> ;
+    semantica:text "Scopus" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2024_q1> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2024_Q1" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Transformer-based Protein Structure Prediction" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_science> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "Science" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_biology> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "Biology" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#year_2024> a <https://semantica.dev/ns#Year> ;
+    semantica:text "2024" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#src_web_of_science> a <https://semantica.dev/ns#Source> ;
+    semantica:text "Web of Science" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Causal Inference in Observational Studies" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_journal_of_the_american_statistical_association> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "Journal of the American Statistical Association" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_statistics> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "Statistics" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#year_2021> a <https://semantica.dev/ns#Year> ;
+    semantica:text "2021" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2021_q1> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2021_Q1" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Large Language Models for Clinical Diagnosis" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_new_england_journal_of_medicine> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "New England Journal of Medicine" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_medicine> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "Medicine" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#src_pubmed> a <https://semantica.dev/ns#Source> ;
+    semantica:text "PubMed" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Efficient Federated Learning over Heterogeneous Devices" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_neurips> a <https://semantica.dev/ns#Conference> ;
+    semantica:text "NeurIPS" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#year_2022> a <https://semantica.dev/ns#Year> ;
+    semantica:text "2022" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#src_dblp> a <https://semantica.dev/ns#Source> ;
+    semantica:text "DBLP" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2022_q4> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2022_Q4" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Robust Speech Recognition in Noisy Environments" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_icassp> a <https://semantica.dev/ns#Conference> ;
+    semantica:text "ICASSP" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#src_ieee_xplore> a <https://semantica.dev/ns#Source> ;
+    semantica:text "IEEE Xplore" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2023_q2> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2023_Q2" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Quantum Error Correction with Surface Codes" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_physical_review_letters> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "Physical Review Letters" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_physics> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "Physics" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2022_q2> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2022_Q2" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Deep Reinforcement Learning for Autonomous Driving" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_cvpr> a <https://semantica.dev/ns#Conference> ;
+    semantica:text "CVPR" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "A Survey of Knowledge Graph Embedding Methods" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_ieee_transactions_on_knowledge_and_data_engineering> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "IEEE Transactions on Knowledge and Data Engineering" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2021_q2> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2021_Q2" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "气候变化对农业生产的影响" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E7%A7%91%E5%AD%A6> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "中国农业科学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_%E5%86%9C%E5%AD%A6> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "农学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_%E7%8E%AF%E5%A2%83%E7%A7%91%E5%AD%A6> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "环境科学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#year_2020> a <https://semantica.dev/ns#Year> ;
+    semantica:text "2020" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#lang_%E4%B8%AD%E6%96%87> a <https://semantica.dev/ns#Language> ;
+    semantica:text "中文" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#src_cnki> a <https://semantica.dev/ns#Source> ;
+    semantica:text "CNKI" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2020_q4> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2020_Q4" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "The Road to Practical Quantum Advantage" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_communications_of_the_acm> a <https://semantica.dev/ns#Magazine> ;
+    semantica:text "Communications of the ACM" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2023_q3> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2023_Q3" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "低温超导材料研究进展" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_%E7%89%A9%E7%90%86> a <https://semantica.dev/ns#Magazine> ;
+    semantica:text "物理" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_%E7%89%A9%E7%90%86%E5%AD%A6> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "物理学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2022_q1> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2022_Q1" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Federated Graph Learning for Privacy-Preserving Analytics" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_kdd> a <https://semantica.dev/ns#Conference> ;
+    semantica:text "KDD" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2024_q2> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2024_Q2" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "Metaverse and Human-Computer Interaction" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_ieee_spectrum> a <https://semantica.dev/ns#Magazine> ;
+    semantica:text "IEEE Spectrum" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> a <https://semantica.dev/ns#Paper> ;
+    semantica:text "基于深度学习的遥感图像分类方法" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#venue_%E6%B5%8B%E7%BB%98%E5%AD%A6%E6%8A%A5> a <https://semantica.dev/ns#Journal> ;
+    semantica:text "测绘学报" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#disc_%E9%81%A5%E6%84%9F%E7%A7%91%E5%AD%A6> a <https://semantica.dev/ns#Discipline> ;
+    semantica:text "遥感科学" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#batch_2023_q1> a <https://semantica.dev/ns#Batch> ;
+    semantica:text "2023_Q1" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#author_alice_zhang> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_tsinghua_university> .
+<https://semantica.dev/ns#author_bob_liu> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_peking_university> .
+<https://semantica.dev/ns#author_carol_wang> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_mit> .
+<https://semantica.dev/ns#author_david_chen> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_stanford_university> .
+<https://semantica.dev/ns#author_elena_johnson> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_harvard_university> .
+<https://semantica.dev/ns#author_fernando_garcia> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_stanford_university> .
+<https://semantica.dev/ns#author_gita_patel> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_johns_hopkins_university> .
+<https://semantica.dev/ns#author_hyun_kim> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_seoul_national_university> .
+<https://semantica.dev/ns#author_inho_park> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_kaist> .
+<https://semantica.dev/ns#author_jun_tanaka> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_university_of_tokyo> .
+<https://semantica.dev/ns#author_klaus_m%C3%BCller> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_eth_zurich> .
+<https://semantica.dev/ns#author_luca_rossi> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_politecnico_di_milano> .
+<https://semantica.dev/ns#author_maria_bianchi> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_sapienza_university> .
+<https://semantica.dev/ns#author_nicole_dupont> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_sorbonne_university> .
+<https://semantica.dev/ns#author_oliver_smith> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_ibm_research> .
+<https://semantica.dev/ns#author_%E7%8E%8B%E4%BC%9F> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6> .
+<https://semantica.dev/ns#author_%E6%9D%8E%E5%A8%9C> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_%E5%8D%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6> .
+<https://semantica.dev/ns#author_%E5%BC%A0%E5%BC%BA> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6> .
+<https://semantica.dev/ns#author_%E5%88%98%E6%B4%8B> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E7%89%A9%E7%90%86%E7%A0%94%E7%A9%B6%E6%89%80> .
+<https://semantica.dev/ns#author_petr_novak> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_charles_university> .
+<https://semantica.dev/ns#author_qasim_ahmad> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_university_of_oxford> .
+<https://semantica.dev/ns#author_rita_silva> <https://semantica.dev/ns#AFFILIATED_WITH> <https://semantica.dev/ns#inst_imperial_college_london> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_alice_zhang> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_bob_liu> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_nature_machine_intelligence> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_chemistry> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2023> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_scopus> .
+<https://semantica.dev/ns#paper_1_graph_neural_networks_for_molecular_property_prediction> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2024_q1> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_carol_wang> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_david_chen> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_science> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_biology> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2024> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_web_of_science> .
+<https://semantica.dev/ns#paper_2_transformer-based_protein_structure_prediction> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2024_q1> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_elena_johnson> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_journal_of_the_american_statistical_association> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_statistics> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2021> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_scopus> .
+<https://semantica.dev/ns#paper_3_causal_inference_in_observational_studies> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2021_q1> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_fernando_garcia> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_gita_patel> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_new_england_journal_of_medicine> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_medicine> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2024> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_pubmed> .
+<https://semantica.dev/ns#paper_4_large_language_models_for_clinical_diagnosis> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2024_q1> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_hyun_kim> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_inho_park> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#PRESENTED_AT> <https://semantica.dev/ns#venue_neurips> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2022> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_dblp> .
+<https://semantica.dev/ns#paper_5_efficient_federated_learning_over_heterogeneous_devices> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2022_q4> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_jun_tanaka> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#PRESENTED_AT> <https://semantica.dev/ns#venue_icassp> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2023> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_ieee_xplore> .
+<https://semantica.dev/ns#paper_6_robust_speech_recognition_in_noisy_environments> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2023_q2> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_klaus_m%C3%BCller> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_physical_review_letters> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_physics> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2022> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_web_of_science> .
+<https://semantica.dev/ns#paper_7_quantum_error_correction_with_surface_codes> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2022_q2> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_luca_rossi> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_maria_bianchi> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#PRESENTED_AT> <https://semantica.dev/ns#venue_cvpr> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2023> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_dblp> .
+<https://semantica.dev/ns#paper_8_deep_reinforcement_learning_for_autonomous_driving> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2023_q2> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_nicole_dupont> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_ieee_transactions_on_knowledge_and_data_engineering> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2021> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_scopus> .
+<https://semantica.dev/ns#paper_9_a_survey_of_knowledge_graph_embedding_methods> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2021_q2> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_%E7%8E%8B%E4%BC%9F> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_%E6%9D%8E%E5%A8%9C> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E7%A7%91%E5%AD%A6> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_%E5%86%9C%E5%AD%A6> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_%E7%8E%AF%E5%A2%83%E7%A7%91%E5%AD%A6> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2020> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_%E4%B8%AD%E6%96%87> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_cnki> .
+<https://semantica.dev/ns#paper_10_%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%86%9C%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%9A%84%E5%BD%B1%E5%93%8D> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2020_q4> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_oliver_smith> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_communications_of_the_acm> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_physics> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2023> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_scopus> .
+<https://semantica.dev/ns#paper_11_the_road_to_practical_quantum_advantage> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2023_q3> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_%E5%88%98%E6%B4%8B> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_%E7%89%A9%E7%90%86> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_%E7%89%A9%E7%90%86%E5%AD%A6> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2022> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_%E4%B8%AD%E6%96%87> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_cnki> .
+<https://semantica.dev/ns#paper_12_%E4%BD%8E%E6%B8%A9%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2022_q1> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_petr_novak> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#PRESENTED_AT> <https://semantica.dev/ns#venue_kdd> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2024> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_dblp> .
+<https://semantica.dev/ns#paper_13_federated_graph_learning_for_privacy-preserving_analytics> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2024_q2> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_qasim_ahmad> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_rita_silva> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_ieee_spectrum> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_computer_science> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2024> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_english> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_ieee_xplore> .
+<https://semantica.dev/ns#paper_14_metaverse_and_human-computer_interaction> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2024_q2> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#AUTHORED_BY> <https://semantica.dev/ns#author_%E5%BC%A0%E5%BC%BA> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#PUBLISHED_IN> <https://semantica.dev/ns#venue_%E6%B5%8B%E7%BB%98%E5%AD%A6%E6%8A%A5> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#HAS_DISCIPLINE> <https://semantica.dev/ns#disc_%E9%81%A5%E6%84%9F%E7%A7%91%E5%AD%A6> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#PUBLISHED_IN_YEAR> <https://semantica.dev/ns#year_2023> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#HAS_LANGUAGE> <https://semantica.dev/ns#lang_%E4%B8%AD%E6%96%87> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#HAS_SOURCE> <https://semantica.dev/ns#src_cnki> .
+<https://semantica.dev/ns#paper_15_%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%81%A5%E6%84%9F%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95> <https://semantica.dev/ns#IN_BATCH> <https://semantica.dev/ns#batch_2023_q1> .

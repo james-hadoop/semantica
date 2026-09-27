@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix semantica: <https://semantica.dev/ns#> .
+
+<https://semantica.dev/ns#entity_ba86d94f45ed925f> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Alice Chen" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_9e1a1a1bdf0dad63> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Data Science team" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_a73cb4563ee2e72c> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Acme Corp" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_67033cd6d1e3efda> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Bob Lee" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_b680b657a36b29f7> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Finance department" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_9b4ed45bf939450e> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Globex" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_9e1a1a1bdf0dad63> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Data Science team" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_c9fc7f96979b8d99> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Acme Corp R&D division" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_878fe163059ec57f> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Peter Gibbons" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#entity_cafd6404df1bd133> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Initech Ltd" ;
+    semantica:confidence "0.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .

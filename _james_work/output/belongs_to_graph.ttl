@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix semantica: <https://semantica.dev/ns#> .
+
+<https://semantica.dev/ns#Alice%20Chen> a <https://semantica.dev/ns#PERSON> ;
+    semantica:text "Alice Chen" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Data%20Science%20team> a <https://semantica.dev/ns#TEAM> ;
+    semantica:text "Data Science team" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Acme%20Corp> a <https://semantica.dev/ns#ORG> ;
+    semantica:text "Acme Corp" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Bob%20Lee> a <https://semantica.dev/ns#PERSON> ;
+    semantica:text "Bob Lee" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Finance%20department> a <https://semantica.dev/ns#TEAM> ;
+    semantica:text "Finance department" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Globex> a <https://semantica.dev/ns#ORG> ;
+    semantica:text "Globex" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Acme%20Corp%20R%26D%20division> a <https://semantica.dev/ns#ORG> ;
+    semantica:text "Acme Corp R&D division" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Peter%20Gibbons> a <https://semantica.dev/ns#PERSON> ;
+    semantica:text "Peter Gibbons" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Initech%20Ltd> a <https://semantica.dev/ns#ORG> ;
+    semantica:text "Initech Ltd" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#Alice%20Chen> <https://semantica.dev/ns#BELONGS_TO> <https://semantica.dev/ns#Data%20Science%20team> .
+<https://semantica.dev/ns#Bob%20Lee> <https://semantica.dev/ns#BELONGS_TO> <https://semantica.dev/ns#Finance%20department> .
+<https://semantica.dev/ns#Data%20Science%20team> <https://semantica.dev/ns#BELONGS_TO> <https://semantica.dev/ns#Acme%20Corp%20R%26D%20division> .
+<https://semantica.dev/ns#Peter%20Gibbons> <https://semantica.dev/ns#WORKS_FOR> <https://semantica.dev/ns#Initech%20Ltd> .

@@ -1,0 +1,537 @@
+[
+  {
+    "id": "inst_tsinghua_university",
+    "type": "Institution",
+    "label": "Tsinghua University"
+  },
+  {
+    "id": "author_alice_zhang",
+    "type": "Author",
+    "label": "Alice Zhang"
+  },
+  {
+    "id": "inst_peking_university",
+    "type": "Institution",
+    "label": "Peking University"
+  },
+  {
+    "id": "author_bob_liu",
+    "type": "Author",
+    "label": "Bob Liu"
+  },
+  {
+    "id": "inst_mit",
+    "type": "Institution",
+    "label": "MIT"
+  },
+  {
+    "id": "author_carol_wang",
+    "type": "Author",
+    "label": "Carol Wang"
+  },
+  {
+    "id": "inst_stanford_university",
+    "type": "Institution",
+    "label": "Stanford University"
+  },
+  {
+    "id": "author_david_chen",
+    "type": "Author",
+    "label": "David Chen"
+  },
+  {
+    "id": "inst_harvard_university",
+    "type": "Institution",
+    "label": "Harvard University"
+  },
+  {
+    "id": "author_elena_johnson",
+    "type": "Author",
+    "label": "Elena Johnson"
+  },
+  {
+    "id": "author_fernando_garcia",
+    "type": "Author",
+    "label": "Fernando Garcia"
+  },
+  {
+    "id": "inst_johns_hopkins_university",
+    "type": "Institution",
+    "label": "Johns Hopkins University"
+  },
+  {
+    "id": "author_gita_patel",
+    "type": "Author",
+    "label": "Gita Patel"
+  },
+  {
+    "id": "inst_seoul_national_university",
+    "type": "Institution",
+    "label": "Seoul National University"
+  },
+  {
+    "id": "author_hyun_kim",
+    "type": "Author",
+    "label": "Hyun Kim"
+  },
+  {
+    "id": "inst_kaist",
+    "type": "Institution",
+    "label": "KAIST"
+  },
+  {
+    "id": "author_inho_park",
+    "type": "Author",
+    "label": "Inho Park"
+  },
+  {
+    "id": "inst_university_of_tokyo",
+    "type": "Institution",
+    "label": "University of Tokyo"
+  },
+  {
+    "id": "author_jun_tanaka",
+    "type": "Author",
+    "label": "Jun Tanaka"
+  },
+  {
+    "id": "inst_eth_zurich",
+    "type": "Institution",
+    "label": "ETH Zurich"
+  },
+  {
+    "id": "author_klaus_müller",
+    "type": "Author",
+    "label": "Klaus Müller"
+  },
+  {
+    "id": "inst_politecnico_di_milano",
+    "type": "Institution",
+    "label": "Politecnico di Milano"
+  },
+  {
+    "id": "author_luca_rossi",
+    "type": "Author",
+    "label": "Luca Rossi"
+  },
+  {
+    "id": "inst_sapienza_university",
+    "type": "Institution",
+    "label": "Sapienza University"
+  },
+  {
+    "id": "author_maria_bianchi",
+    "type": "Author",
+    "label": "Maria Bianchi"
+  },
+  {
+    "id": "inst_sorbonne_university",
+    "type": "Institution",
+    "label": "Sorbonne University"
+  },
+  {
+    "id": "author_nicole_dupont",
+    "type": "Author",
+    "label": "Nicole Dupont"
+  },
+  {
+    "id": "inst_ibm_research",
+    "type": "Institution",
+    "label": "IBM Research"
+  },
+  {
+    "id": "author_oliver_smith",
+    "type": "Author",
+    "label": "Oliver Smith"
+  },
+  {
+    "id": "inst_中国农业大学",
+    "type": "Institution",
+    "label": "中国农业大学"
+  },
+  {
+    "id": "author_王伟",
+    "type": "Author",
+    "label": "王伟"
+  },
+  {
+    "id": "inst_南京农业大学",
+    "type": "Institution",
+    "label": "南京农业大学"
+  },
+  {
+    "id": "author_李娜",
+    "type": "Author",
+    "label": "李娜"
+  },
+  {
+    "id": "inst_武汉大学",
+    "type": "Institution",
+    "label": "武汉大学"
+  },
+  {
+    "id": "author_张强",
+    "type": "Author",
+    "label": "张强"
+  },
+  {
+    "id": "inst_中国科学院物理研究所",
+    "type": "Institution",
+    "label": "中国科学院物理研究所"
+  },
+  {
+    "id": "author_刘洋",
+    "type": "Author",
+    "label": "刘洋"
+  },
+  {
+    "id": "inst_charles_university",
+    "type": "Institution",
+    "label": "Charles University"
+  },
+  {
+    "id": "author_petr_novak",
+    "type": "Author",
+    "label": "Petr Novak"
+  },
+  {
+    "id": "inst_university_of_oxford",
+    "type": "Institution",
+    "label": "University of Oxford"
+  },
+  {
+    "id": "author_qasim_ahmad",
+    "type": "Author",
+    "label": "Qasim Ahmad"
+  },
+  {
+    "id": "inst_imperial_college_london",
+    "type": "Institution",
+    "label": "Imperial College London"
+  },
+  {
+    "id": "author_rita_silva",
+    "type": "Author",
+    "label": "Rita Silva"
+  },
+  {
+    "id": "paper_1_graph_neural_networks_for_molecular_property_prediction",
+    "type": "Paper",
+    "label": "Graph Neural Networks for Molecular Property Prediction"
+  },
+  {
+    "id": "venue_nature_machine_intelligence",
+    "type": "Journal",
+    "label": "Nature Machine Intelligence"
+  },
+  {
+    "id": "disc_computer_science",
+    "type": "Discipline",
+    "label": "Computer Science"
+  },
+  {
+    "id": "disc_chemistry",
+    "type": "Discipline",
+    "label": "Chemistry"
+  },
+  {
+    "id": "year_2023",
+    "type": "Year",
+    "label": "2023"
+  },
+  {
+    "id": "lang_english",
+    "type": "Language",
+    "label": "English"
+  },
+  {
+    "id": "src_scopus",
+    "type": "Source",
+    "label": "Scopus"
+  },
+  {
+    "id": "batch_2024_q1",
+    "type": "Batch",
+    "label": "2024_Q1"
+  },
+  {
+    "id": "paper_2_transformer-based_protein_structure_prediction",
+    "type": "Paper",
+    "label": "Transformer-based Protein Structure Prediction"
+  },
+  {
+    "id": "venue_science",
+    "type": "Journal",
+    "label": "Science"
+  },
+  {
+    "id": "disc_biology",
+    "type": "Discipline",
+    "label": "Biology"
+  },
+  {
+    "id": "year_2024",
+    "type": "Year",
+    "label": "2024"
+  },
+  {
+    "id": "src_web_of_science",
+    "type": "Source",
+    "label": "Web of Science"
+  },
+  {
+    "id": "paper_3_causal_inference_in_observational_studies",
+    "type": "Paper",
+    "label": "Causal Inference in Observational Studies"
+  },
+  {
+    "id": "venue_journal_of_the_american_statistical_association",
+    "type": "Journal",
+    "label": "Journal of the American Statistical Association"
+  },
+  {
+    "id": "disc_statistics",
+    "type": "Discipline",
+    "label": "Statistics"
+  },
+  {
+    "id": "year_2021",
+    "type": "Year",
+    "label": "2021"
+  },
+  {
+    "id": "batch_2021_q1",
+    "type": "Batch",
+    "label": "2021_Q1"
+  },
+  {
+    "id": "paper_4_large_language_models_for_clinical_diagnosis",
+    "type": "Paper",
+    "label": "Large Language Models for Clinical Diagnosis"
+  },
+  {
+    "id": "venue_new_england_journal_of_medicine",
+    "type": "Journal",
+    "label": "New England Journal of Medicine"
+  },
+  {
+    "id": "disc_medicine",
+    "type": "Discipline",
+    "label": "Medicine"
+  },
+  {
+    "id": "src_pubmed",
+    "type": "Source",
+    "label": "PubMed"
+  },
+  {
+    "id": "paper_5_efficient_federated_learning_over_heterogeneous_devices",
+    "type": "Paper",
+    "label": "Efficient Federated Learning over Heterogeneous Devices"
+  },
+  {
+    "id": "venue_neurips",
+    "type": "Conference",
+    "label": "NeurIPS"
+  },
+  {
+    "id": "year_2022",
+    "type": "Year",
+    "label": "2022"
+  },
+  {
+    "id": "src_dblp",
+    "type": "Source",
+    "label": "DBLP"
+  },
+  {
+    "id": "batch_2022_q4",
+    "type": "Batch",
+    "label": "2022_Q4"
+  },
+  {
+    "id": "paper_6_robust_speech_recognition_in_noisy_environments",
+    "type": "Paper",
+    "label": "Robust Speech Recognition in Noisy Environments"
+  },
+  {
+    "id": "venue_icassp",
+    "type": "Conference",
+    "label": "ICASSP"
+  },
+  {
+    "id": "src_ieee_xplore",
+    "type": "Source",
+    "label": "IEEE Xplore"
+  },
+  {
+    "id": "batch_2023_q2",
+    "type": "Batch",
+    "label": "2023_Q2"
+  },
+  {
+    "id": "paper_7_quantum_error_correction_with_surface_codes",
+    "type": "Paper",
+    "label": "Quantum Error Correction with Surface Codes"
+  },
+  {
+    "id": "venue_physical_review_letters",
+    "type": "Journal",
+    "label": "Physical Review Letters"
+  },
+  {
+    "id": "disc_physics",
+    "type": "Discipline",
+    "label": "Physics"
+  },
+  {
+    "id": "batch_2022_q2",
+    "type": "Batch",
+    "label": "2022_Q2"
+  },
+  {
+    "id": "paper_8_deep_reinforcement_learning_for_autonomous_driving",
+    "type": "Paper",
+    "label": "Deep Reinforcement Learning for Autonomous Driving"
+  },
+  {
+    "id": "venue_cvpr",
+    "type": "Conference",
+    "label": "CVPR"
+  },
+  {
+    "id": "paper_9_a_survey_of_knowledge_graph_embedding_methods",
+    "type": "Paper",
+    "label": "A Survey of Knowledge Graph Embedding Methods"
+  },
+  {
+    "id": "venue_ieee_transactions_on_knowledge_and_data_engineering",
+    "type": "Journal",
+    "label": "IEEE Transactions on Knowledge and Data Engineering"
+  },
+  {
+    "id": "batch_2021_q2",
+    "type": "Batch",
+    "label": "2021_Q2"
+  },
+  {
+    "id": "paper_10_气候变化对农业生产的影响",
+    "type": "Paper",
+    "label": "气候变化对农业生产的影响"
+  },
+  {
+    "id": "venue_中国农业科学",
+    "type": "Journal",
+    "label": "中国农业科学"
+  },
+  {
+    "id": "disc_农学",
+    "type": "Discipline",
+    "label": "农学"
+  },
+  {
+    "id": "disc_环境科学",
+    "type": "Discipline",
+    "label": "环境科学"
+  },
+  {
+    "id": "year_2020",
+    "type": "Year",
+    "label": "2020"
+  },
+  {
+    "id": "lang_中文",
+    "type": "Language",
+    "label": "中文"
+  },
+  {
+    "id": "src_cnki",
+    "type": "Source",
+    "label": "CNKI"
+  },
+  {
+    "id": "batch_2020_q4",
+    "type": "Batch",
+    "label": "2020_Q4"
+  },
+  {
+    "id": "paper_11_the_road_to_practical_quantum_advantage",
+    "type": "Paper",
+    "label": "The Road to Practical Quantum Advantage"
+  },
+  {
+    "id": "venue_communications_of_the_acm",
+    "type": "Magazine",
+    "label": "Communications of the ACM"
+  },
+  {
+    "id": "batch_2023_q3",
+    "type": "Batch",
+    "label": "2023_Q3"
+  },
+  {
+    "id": "paper_12_低温超导材料研究进展",
+    "type": "Paper",
+    "label": "低温超导材料研究进展"
+  },
+  {
+    "id": "venue_物理",
+    "type": "Magazine",
+    "label": "物理"
+  },
+  {
+    "id": "disc_物理学",
+    "type": "Discipline",
+    "label": "物理学"
+  },
+  {
+    "id": "batch_2022_q1",
+    "type": "Batch",
+    "label": "2022_Q1"
+  },
+  {
+    "id": "paper_13_federated_graph_learning_for_privacy-preserving_analytics",
+    "type": "Paper",
+    "label": "Federated Graph Learning for Privacy-Preserving Analytics"
+  },
+  {
+    "id": "venue_kdd",
+    "type": "Conference",
+    "label": "KDD"
+  },
+  {
+    "id": "batch_2024_q2",
+    "type": "Batch",
+    "label": "2024_Q2"
+  },
+  {
+    "id": "paper_14_metaverse_and_human-computer_interaction",
+    "type": "Paper",
+    "label": "Metaverse and Human-Computer Interaction"
+  },
+  {
+    "id": "venue_ieee_spectrum",
+    "type": "Magazine",
+    "label": "IEEE Spectrum"
+  },
+  {
+    "id": "paper_15_基于深度学习的遥感图像分类方法",
+    "type": "Paper",
+    "label": "基于深度学习的遥感图像分类方法"
+  },
+  {
+    "id": "venue_测绘学报",
+    "type": "Journal",
+    "label": "测绘学报"
+  },
+  {
+    "id": "disc_遥感科学",
+    "type": "Discipline",
+    "label": "遥感科学"
+  },
+  {
+    "id": "batch_2023_q1",
+    "type": "Batch",
+    "label": "2023_Q1"
+  }
+]

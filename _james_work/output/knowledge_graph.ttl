@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix semantica: <https://semantica.dev/ns#> .
+
+<https://semantica.dev/ns#doc0_e1> a <https://semantica.dev/ns#None> ;
+    semantica:text "Acme Corp" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc0_e4> a <https://semantica.dev/ns#None> ;
+    semantica:text "2024" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc1_e1> a <https://semantica.dev/ns#None> ;
+    semantica:text "Bob Lee" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e0> a <https://semantica.dev/ns#None> ;
+    semantica:text "Initech Ltd" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e3> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Peter Gibbons" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc1_contract_acme_globex.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Acme%20Corp.> .
+<https://semantica.dev/ns#doc2_contract_bob_globex.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Bob%20Lee> .
+<https://semantica.dev/ns#doc2_contract_bob_globex.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Bob%20Lee> .
+<https://semantica.dev/ns#doc2_contract_bob_globex.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Bob%20Lee> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Acme%20Corp> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Initech%20Ltd.> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Peter%20Gibbons> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#2024> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Initech%20Ltd.> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Peter%20Gibbons> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#2024> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#Peter%20Gibbons> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#2024> .
+<https://semantica.dev/ns#doc3_press_initech.txt> <https://semantica.dev/ns#related_to> <https://semantica.dev/ns#2024> .

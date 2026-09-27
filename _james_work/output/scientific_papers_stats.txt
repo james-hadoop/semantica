@@ -1,0 +1,38 @@
+Scientific Papers Knowledge Graph — Statistics
+========================================================
+
+Nodes: 107  Edges: 139
+
+Entity type distribution:
+  Author       作者     22
+  Institution  机构     21
+  Paper        论文     15
+  Batch        批次     11
+  Discipline   学科     10
+  Journal      期刊     8
+  Source       来源     6
+  Year         年份     5
+  Conference   会议     4
+  Magazine     杂志     3
+  Language     语言     2
+
+Relationship type distribution:
+  AFFILIATED_WITH      22
+  AUTHORED_BY          22
+  HAS_DISCIPLINE       20
+  PUBLISHED_IN_YEAR    15
+  HAS_LANGUAGE         15
+  HAS_SOURCE           15
+  IN_BATCH             15
+  PUBLISHED_IN         11
+  PRESENTED_AT         4
+
+Top nodes by degree:
+  English                                          [语言] 12
+  Computer Science                                 [学科] 10
+  Graph Neural Networks for Molecular Property Prediction [论文] 9
+  Transformer-based Protein Structure Prediction   [论文] 9
+  Large Language Models for Clinical Diagnosis     [论文] 9
+  气候变化对农业生产的影响                                     [论文] 9
+  Efficient Federated Learning over Heterogeneous Devices [论文] 8
+  Deep Reinforcement Learning for Autonomous Driving [论文] 8

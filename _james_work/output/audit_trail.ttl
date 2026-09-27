@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix semantica: <https://semantica.dev/ns#> .
+
+<https://semantica.dev/ns#1db3d444-af6e-4d9d-ad62-f2397d3ea42b> a <https://semantica.dev/ns#decision> ;
+    semantica:text "Personal loan, $85k income, 31% DTI, 3yr employment" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    <https://semantica.dev/ns#builtAt> "1790230828.262818"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<https://semantica.dev/ns#category_credit_application> a <https://semantica.dev/ns#category> ;
+    semantica:text "category_credit_application" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#4272e769-0e43-4a84-9388-5c6f3576f22b> a <https://semantica.dev/ns#decision> ;
+    semantica:text "Underwriting review for A-7291" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    <https://semantica.dev/ns#builtAt> "1790230828.262818"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<https://semantica.dev/ns#category_loan_underwriting> a <https://semantica.dev/ns#category> ;
+    semantica:text "category_loan_underwriting" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#fcde009f-4020-449b-a65b-fceac00096e5> a <https://semantica.dev/ns#decision> ;
+    semantica:text "Rate assignment for approved loan A-7291" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    <https://semantica.dev/ns#builtAt> "1790230828.262818"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<https://semantica.dev/ns#category_interest_rate> a <https://semantica.dev/ns#category> ;
+    semantica:text "category_interest_rate" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#46f837f3-b2e6-457b-b3fa-20be4b2171cd> a <https://semantica.dev/ns#decision> ;
+    semantica:text "Personal loan, $62k income, 28% DTI, 5yr employment" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    <https://semantica.dev/ns#builtAt> "1790230828.264817"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<https://semantica.dev/ns#55378f54-6855-4b83-88b0-6e815a4395f8> a <https://semantica.dev/ns#decision> ;
+    semantica:text "Auto loan refinance, $110k income, 22% DTI" ;
+    semantica:confidence "1"^^<http://www.w3.org/2001/XMLSchema#decimal> ;
+    <https://semantica.dev/ns#builtAt> "1790230828.264817"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<https://semantica.dev/ns#1db3d444-af6e-4d9d-ad62-f2397d3ea42b> <https://semantica.dev/ns#belongs_to> <https://semantica.dev/ns#category_credit_application> .
+<https://semantica.dev/ns#4272e769-0e43-4a84-9388-5c6f3576f22b> <https://semantica.dev/ns#belongs_to> <https://semantica.dev/ns#category_loan_underwriting> .
+<https://semantica.dev/ns#fcde009f-4020-449b-a65b-fceac00096e5> <https://semantica.dev/ns#belongs_to> <https://semantica.dev/ns#category_interest_rate> .
+<https://semantica.dev/ns#1db3d444-af6e-4d9d-ad62-f2397d3ea42b> <https://semantica.dev/ns#CAUSED> <https://semantica.dev/ns#4272e769-0e43-4a84-9388-5c6f3576f22b> .
+<https://semantica.dev/ns#4272e769-0e43-4a84-9388-5c6f3576f22b> <https://semantica.dev/ns#INFLUENCED> <https://semantica.dev/ns#fcde009f-4020-449b-a65b-fceac00096e5> .
+<https://semantica.dev/ns#46f837f3-b2e6-457b-b3fa-20be4b2171cd> <https://semantica.dev/ns#belongs_to> <https://semantica.dev/ns#category_credit_application> .
+<https://semantica.dev/ns#55378f54-6855-4b83-88b0-6e815a4395f8> <https://semantica.dev/ns#belongs_to> <https://semantica.dev/ns#category_credit_application> .

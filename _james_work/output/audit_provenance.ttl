@@ -1,0 +1,122 @@
+@prefix ex: <https://semantica.dev/ns#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:applicant_A7291 a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T06:20:28.269817+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedDerivation [ a prov:Derivation ;
+            prov:entity <https://semantica.dev/ns#applicant_A7291:v:2026-09-24T06:19:50.580520+00:00> ;
+            prov:hadActivity ex:entity_tracking ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T06:20:28.269817+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasDerivedFrom <https://semantica.dev/ns#applicant_A7291:v:2026-09-24T06:19:50.580520+00:00> ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+ex:credit_report_A7291 a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T06:20:28.277818+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedDerivation [ a prov:Derivation ;
+            prov:entity <https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T06:19:50.622522+00:00> ;
+            prov:hadActivity ex:entity_tracking ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T06:20:28.277818+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasDerivedFrom <https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T06:19:50.622522+00:00> ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+<https://semantica.dev/ns#applicant_A7291:v:2026-09-24T01:58:28.363559+00:00> a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T01:58:28.363570+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T01:58:28.363570+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+<https://semantica.dev/ns#applicant_A7291:v:2026-09-24T02:00:00.457314+00:00> a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T02:00:00.457329+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedDerivation [ a prov:Derivation ;
+            prov:entity <https://semantica.dev/ns#applicant_A7291:v:2026-09-24T01:58:28.363559+00:00> ;
+            prov:hadActivity ex:entity_tracking ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T02:00:00.457329+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasDerivedFrom <https://semantica.dev/ns#applicant_A7291:v:2026-09-24T01:58:28.363559+00:00> ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+<https://semantica.dev/ns#applicant_A7291:v:2026-09-24T06:19:50.580520+00:00> a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T06:19:50.580520+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedDerivation [ a prov:Derivation ;
+            prov:entity <https://semantica.dev/ns#applicant_A7291:v:2026-09-24T02:00:00.457314+00:00> ;
+            prov:hadActivity ex:entity_tracking ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T06:19:50.580520+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasDerivedFrom <https://semantica.dev/ns#applicant_A7291:v:2026-09-24T02:00:00.457314+00:00> ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+<https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T01:58:28.404576+00:00> a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T01:58:28.404587+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T01:58:28.404587+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+<https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T02:00:00.496818+00:00> a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T02:00:00.496832+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedDerivation [ a prov:Derivation ;
+            prov:entity <https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T01:58:28.404576+00:00> ;
+            prov:hadActivity ex:entity_tracking ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T02:00:00.496832+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasDerivedFrom <https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T01:58:28.404576+00:00> ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+<https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T06:19:50.622522+00:00> a prov:Entity ;
+    prov:generatedAtTime "2026-09-24T06:19:50.622522+00:00"^^xsd:dateTime ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent ex:semantica ;
+            prov:hadRole ex:role_generator ] ;
+    prov:qualifiedDerivation [ a prov:Derivation ;
+            prov:entity <https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T02:00:00.496818+00:00> ;
+            prov:hadActivity ex:entity_tracking ] ;
+    prov:qualifiedGeneration [ a prov:Generation ;
+            prov:activity ex:entity_tracking ;
+            prov:atTime "2026-09-24T06:19:50.622522+00:00"^^xsd:dateTime ] ;
+    prov:wasAttributedTo ex:semantica ;
+    prov:wasDerivedFrom <https://semantica.dev/ns#credit_report_A7291:v:2026-09-24T02:00:00.496818+00:00> ;
+    prov:wasGeneratedBy ex:entity_tracking .
+
+ex:semantica a prov:Agent,
+        prov:SoftwareAgent .
+
+ex:entity_tracking a prov:Activity ;
+    prov:wasAssociatedWith ex:semantica .
+

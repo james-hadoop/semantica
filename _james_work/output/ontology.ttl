@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix semantica: <https://semantica.dev/ns#> .
+
+<https://semantica.dev/ns#doc0_e0> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Acme Corp." ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc0_e1> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Acme Corp" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc0_e2> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Alice Chen" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc0_e3> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Alice Chen" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc0_e4> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "2024" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc1_e0> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Acme Corp" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc1_e1> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Bob Lee" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc1_e2> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Bob Lee" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e0> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Initech Ltd" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e1> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Acme Corp" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e2> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Initech Ltd." ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e3> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "Peter Gibbons" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://semantica.dev/ns#doc2_e4> a <https://semantica.dev/ns#Entity> ;
+    semantica:text "2024" ;
+    semantica:confidence "0.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
